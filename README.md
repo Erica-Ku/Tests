@@ -39,6 +39,6 @@ server, client로 분리
 - 구현 상태 캡쳐
 <div>
  <img src="완성사진/test2_home.png" width="330" height="200"/>
- <img src="완성사진/test2_insert.png" width="350" height="200"/>
- <img src="완성사진/test2_update.png" width="350" height="200"/>
+ <img src="완성사진/test2_insert.png" width="340" height="200"/>
+ <img src="완성사진/test2_update.png" width="340" height="200"/>
 </div>
