@@ -37,4 +37,4 @@ server, client로 분리
   - [x] 백엔드 API와 연동하여 상품 정보를 조회, 등록, 수정, 삭제하는 기능 구현 - 일단 삭제 빼고 구현
   - [ ] 사용자 인증 기능 구현
 - 구현 상태 캡쳐
-![home](완성사진/test2_home.png =100x100)
+<img src="완성사진/test2_home.png" width="400" height="200"/>
