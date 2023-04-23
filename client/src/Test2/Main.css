@@ -1,0 +1,192 @@
+.main {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+
+.ProductList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+  
+.ProductItem {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+  
+.ProductItem:hover {
+    transform: scale(1.05);
+}
+  
+.ProductItem h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.ProductItem p {
+    margin-bottom: 5px;
+}
+  
+.ProductItem button {
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+  
+.ProductItem button:hover {
+    background-color: #555;
+}
+  
+.ProductDetail {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ProductDetail h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.ProductDetail p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.ProductDetail a {
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.ProductDetail a:hover {
+  background-color: #ff4d4d;
+}
+
+.ProductForm {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.ProductForm h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ProductForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductForm label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ProductForm input,
+.ProductForm textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.ProductForm button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.ProductForm button[type="submit"]:hover {
+  background-color: #449d44;
+}
+
+.product-update {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-update h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.product-update form {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-update label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-update input,
+.product-update textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.product-update input[type="number"] {
+  width: 100px;
+}
+
+.product-update button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.product-update button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+@media (max-width: 767px) {
+  .main {
+    padding: 10px;
+  }
+
+  .ProductList {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+  
+  .ProductItem {
+    padding: 10px;
+  }
+  
+  .ProductItem h2 {
+    font-size: 1rem;
+  }
+}
